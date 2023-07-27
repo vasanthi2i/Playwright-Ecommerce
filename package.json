@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run playwright test playwright config.ts"
+    "test": "npm test playwright config.ts"
   },
   "keywords": [],
   "author": "",
