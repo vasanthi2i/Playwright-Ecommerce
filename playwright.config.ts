@@ -10,8 +10,9 @@ export default defineConfig({
 ],
 use:
 {
-headless: true
+headless: false
 },
-timeout: 10 * 60 * 1000,
-reporter: 'html'
+timeout: 3 * 60 * 1000,
+//reporter: 'html'
+reporter: [['html', { open: 'always' }]]
 });
