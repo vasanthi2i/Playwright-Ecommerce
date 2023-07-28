@@ -14,5 +14,5 @@ headless: false
 },
 timeout: 3 * 60 * 1000,
 //reporter: 'html'
-reporter: [['html', { open: 'always' }]]
+reporter: [['html', { open: 'always' , outputFolder: 'Test-reports' }]]
 });
