@@ -12,9 +12,9 @@ test("Verify user is able to login successfully with valid credentials", async (
     await page.fill("//input[@name='email']", "vasanth.k0722@gmail.com");
     await page.fill("//input[@name='password']", "test@1234");
     await page.click("//input[@type='submit']");
-    await expect(page).toHaveTitle("My Account1");
+    await expect(page).toHaveTitle("My Account");
     //test.setTimeout(5000);
-    await page.waitForTimeout(5000);
+    //await page.waitForTimeout(5000);
     context.close();
 })
 
